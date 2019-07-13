@@ -14,6 +14,8 @@ namespace GB_3_3
                 FigureFactory.GetFigure(FigureFactory.FigureType.Circle),
                 FigureFactory.GetFigure(FigureFactory.FigureType.Triangle),
                 FigureFactory.GetFigure(FigureFactory.FigureType.Circle),
+                FigureFactory.GetFigure("Circle"),
+                FigureFactory.GetFigure("Cirkle"),
                 FigureFactory.GetFigure(FigureFactory.FigureType.Rectangle),
                 FigureFactory.GetFigure(FigureFactory.FigureType.Triangle),
                 FigureFactory.GetFigure(FigureFactory.FigureType.Triangle),

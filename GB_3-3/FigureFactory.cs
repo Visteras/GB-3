@@ -17,6 +17,21 @@ namespace GB_3_3
             }
             return UnknownFigure.Create();
         }
+        
+        public static IFigure GetFigure(string type)
+        {
+            switch (type)
+            {
+                case "Circle":
+                    return Circle.Create();
+                case "Rectangle":
+                    return Rectangle.Create();
+                case "Triangle":
+                    return Triangle.Create();
+            }
+            return UnknownFigure.Create();
+        }
+
 
         public enum FigureType
         {
